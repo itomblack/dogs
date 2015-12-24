@@ -13,7 +13,7 @@ $(document).ready(function() {
 	$('.btn-type-select').on('click', function(){
 
 			$( this ).toggleClass( 'js-btn-off' );
-			var filterSelect = this.innerHTML.replace( ' ','' );
+			var filterSelect = this.id.replace( 'filter','' );
 			var existingFilter = false;
 			var arrayNum = "";
 
@@ -30,6 +30,7 @@ $(document).ready(function() {
 					filterCategory.push( filterSelect );
 			};
 
+			console.log(filterCategory);
 			filterDogs( filterCategory );
 	});
 
@@ -56,7 +57,18 @@ $(document).ready(function() {
  					//compare with all category filters
  					var filterMatch = false;
  					for ( x = 0; x < filterCategory.length; x++ ) {
+ 							//dog category
  							if (dogData[i].category == filterCategory[x]) {
+ 								filterMatch = true;
+ 								x = filterCategory.length;
+ 							}
+ 							//size of dog
+ 							else if (dogData[i].sized == filterCategory[x]) {
+ 								filterMatch = true;
+ 								x = filterCategory.length;
+ 							}
+ 							//grooming needs
+ 							else if (dogData[i].grooming == filterCategory[x]) {
  								filterMatch = true;
  								x = filterCategory.length;
  							};
