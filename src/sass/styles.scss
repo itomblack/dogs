@@ -7,14 +7,9 @@
 // define mixins & functions
 @import "_mixins.scss";
 
-//===============================================================================
-// VARIABLES
-//===============================================================================
-$paper:  white;
-$ink:    black;
-$col1: #000044;
-$col2: #ddddff;
-$col3: #dd00ee;
+@import "variables.scss";
+
+
 
 
 //===============================================================================
@@ -51,7 +46,7 @@ button {
 	border: none;
 }
 
-// define mixins & functions
+// import styles
 @import "main-styles.scss";
 
 
