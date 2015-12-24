@@ -4,6 +4,8 @@ $(document).ready(function() {
 	var dogsFiltered = [];
 	var filterCategory = [];
 
+	//sort data by dogname
+	// dogData.sort();
 	loadDogs(dogData);
 
 	
@@ -69,6 +71,11 @@ $(document).ready(function() {
  							}
  							//grooming needs
  							else if (dogData[i].grooming == filterCategory[x]) {
+ 								filterMatch = true;
+ 								x = filterCategory.length;
+ 							}
+ 							//good with children
+ 							else if (dogData[i].childOK == filterCategory[x]) {
  								filterMatch = true;
  								x = filterCategory.length;
  							};
