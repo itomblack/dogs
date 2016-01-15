@@ -1,0 +1,71 @@
+//===============================================================================
+// STYLES
+//===============================================================================
+@import "variables.scss";
+
+.page-wrap {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.dog-opt-wrap {
+	width: 100%;
+	border-bottom: 1px solid $col1;
+	display: block;
+}
+
+.options-row {
+	width: 100%;
+	display: inline-block;
+	border-bottom: 1px solid $col2;
+
+	&:last-of-type { border-bottom: none;	}
+
+	h3 {
+		margin: 5px 0 4px 0;
+		color: $col1;
+		font-weight: 100;
+		font-size: 16px;
+	}
+}
+
+.btn-type-select {
+	float: left;
+	padding: 5px 10px;
+	margin: 0 5px 5px 0;
+	background-color: $col3;
+	border-top: 3px solid $col1;
+	
+	&:hover {
+		color: white;
+		border-top: 3px solid $col3;
+	}
+
+	&.js-btn-off {
+		border-top: 3px solid $col3;
+		opacity: 0.5;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&.js-btn-off:hover {
+		border-top: 3px solid $col3;
+		color: white;
+	}
+}
+
+.dog-breed-wrap {
+	margin-top: 5px;
+}
+
+.dog-breed-item {
+	float: left;
+	background-color: $col1;
+	color: $col2;
+	padding: 5px 10px;
+	margin: 0 5px 5px 0;;
+
+}
