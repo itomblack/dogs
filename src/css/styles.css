@@ -226,21 +226,21 @@ button {
 /* line 12, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
 .dog-opt-wrap {
   width: 100%;
-  border-bottom: 1px solid #000044;
+  border-bottom: 1px solid #A5B3AA;
   display: block; }
 
 /* line 18, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
 .options-row {
   width: 100%;
   display: inline-block;
-  border-bottom: 1px solid #ddddff; }
+  border-bottom: 1px solid #FEFEEB; }
   /* line 23, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
   .options-row:last-of-type {
     border-bottom: none; }
   /* line 25, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
   .options-row h3 {
     margin: 5px 0 4px 0;
-    color: #000044;
+    color: #A5B3AA;
     font-weight: 100;
     font-size: 16px; }
 
@@ -249,32 +249,33 @@ button {
   float: left;
   padding: 5px 10px;
   margin: 0 5px 5px 0;
-  background-color: #dba332;
-  border-top: 3px solid #000044; }
-  /* line 40, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
+  background-color: #0CA5B0;
+  border-top: 3px solid #A5B3AA;
+  color: #F8F4E4; }
+  /* line 41, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
   .btn-type-select:hover {
     color: white;
-    border-top: 3px solid #dba332; }
-  /* line 45, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
+    border-top: 3px solid #0CA5B0; }
+  /* line 46, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
   .btn-type-select.js-btn-off {
-    border-top: 3px solid #dba332;
+    border-top: 3px solid #0CA5B0;
     opacity: 0.5; }
-  /* line 50, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
+  /* line 51, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
   .btn-type-select:focus {
     outline: none; }
-  /* line 54, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
+  /* line 55, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
   .btn-type-select.js-btn-off:hover {
-    border-top: 3px solid #dba332;
+    border-top: 3px solid #0CA5B0;
     color: white; }
 
-/* line 60, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
+/* line 61, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
 .dog-breed-wrap {
   margin-top: 5px; }
 
-/* line 64, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
+/* line 65, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
 .dog-breed-item {
   float: left;
-  background-color: #000044;
-  color: #ddddff;
+  background-color: #A5B3AA;
+  color: #F8F4E4;
   padding: 5px 10px;
   margin: 0 5px 5px 0; }
