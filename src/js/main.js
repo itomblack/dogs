@@ -27,9 +27,9 @@ $(document).ready(function() {
 			};
 
 			if ( existingFilter ) {
-					filterCategory[arrayNum] = ""; //NEED TO DELETE FROM ARRAY
+					filterCategory.splice(arrayNum, 1); //delete that one from array
 			} else {
-					filterCategory.push( filterSelect );
+					filterCategory.push( filterSelect ); //add category to array
 			};
 
 			console.log(filterCategory);
