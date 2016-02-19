@@ -270,12 +270,37 @@ button {
 
 /* line 61, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
 .dog-breed-wrap {
-  margin-top: 5px; }
+  margin-top: 5px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
 
-/* line 65, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
+/* line 71, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
 .dog-breed-item {
-  float: left;
   background-color: #A5B3AA;
   color: #F8F4E4;
-  padding: 5px 10px;
-  margin: 0 5px 5px 0; }
+  text-align: center;
+  padding: 5px 10px 50px 10px;
+  width: 24%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0 0.5% 1% 0.5%;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto; }
+  /* line 85, /Users/itomblack/Repos/dogs/src/sass/main-styles.scss */
+  .dog-breed-item:hover {
+    padding: 5px 10px 150px 10px; }
