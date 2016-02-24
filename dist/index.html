@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Dog Finder</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<div class="page-wrap">
+
+		<!-- OPTION WRAPPER -->
+		<div id="dog-options" class="dog-opt-wrap">
+
+			<!-- CATEGORY -->
+			<div class="options-row">
+				<h3>Category</h3>
+				<button id="filterHerding" class="btn-type-select">Herding</button>
+				<button id="filterHound" class="btn-type-select">Hound</button>
+				<button id="filterNon-sporting" class="btn-type-select">Non-sporting</button>
+				<button id="filterSporting" class="btn-type-select">Sporting</button>
+				<button id="filterTerrier" class="btn-type-select">Terrier</button>
+				<button id="filterToy" class="btn-type-select">Toy</button>
+				<button id="filterWorking" class="btn-type-select">Working</button>
+			</div>
+			<!-- SIZE -->
+			<div class="options-row">
+				<h3>Size</h3>
+				<button id="filterSml" class="btn-type-select">Small</button>
+				<button id="filterMed" class="btn-type-select">Medium</button>
+				<button id="filterLrg" class="btn-type-select">Large</button>
+			</div>
+			<!-- GROOMING -->
+			<div class="options-row">
+				<h3>Grooming Requirements</h3>
+				<button id="filterDaily" class="btn-type-select">Daily</button>
+				<button id="filterWeekly" class="btn-type-select">Weekly</button>
+				<button id="filterBi-weekly" class="btn-type-select">Bi-weekly</button>
+			</div>
+			<!-- CHILD SUITABILITY -->
+			<div class="options-row">
+				<h3>Child Friendlyness</h3>
+				<button id="filterGood" class="btn-type-select">Good</button>
+				<button id="filterOK" class="btn-type-select">OK</button>
+				<button id="filterPoor" class="btn-type-select">Poor</button>
+			</div>
+
+		</div>
+
+
+		<!-- DOGS SHOWN-->
+		<div id="dog-breeds" class="dog-breed-wrap"></div>
+
+	</div>
+
+
+
+  <script src="js/vendor/jquery-2.1.1.min.js"></script>
+  <script src="js/dog-data-full.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
