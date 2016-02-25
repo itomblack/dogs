@@ -2,7 +2,11 @@ $(document).ready(function() {
 
 
 	var dogsFiltered = [];
-	var filterCategory = [];
+	const filterCategory = {
+	  category: [],
+	  sized: [],
+	  grooming: [],
+	}
 
 	//sort data by dogname
 	// dogData.sort();
@@ -12,30 +16,29 @@ $(document).ready(function() {
 
 
 	/************* BUTTON CLICK ***************/	
-	$('.btn-type-select').on('click', function(){
+	$('[id^=ft_]').on('click', function(){
 
-			$( this ).toggleClass( 'js-btn-off' );
-			var filterSelect = this.id.replace( 'filter','' );
-			var existingFilter = false;
-			var arrayNum = "";
+			$( this ).toggleClass( 'js-btn-on' );
 
-			for ( i = 0; i < filterCategory.length; i++ ) {
-					if ( filterCategory[i] == filterSelect ) {
-						existingFilter = true;
-						arrayNum = i;
-					}
-			};
 
-			if ( existingFilter ) {
-					filterCategory.splice(arrayNum, 1); //delete that one from array
-			} else {
-					filterCategory.push( filterSelect ); //add category to array
-			};
+			// get the key and selection to put it in from the ID
+			var filterKey = this.id.replace( 'ft_','' );
+			filterKey = filterKey.slice(0, filterKey.indexOf('_'));
 
-			console.log(filterCategory);
+			var filterSelect = this.id.replace( 'ft_','' ).replace( filterKey, '').replace( '_', '');
 			
+			//check if already in and add
+			if ( filterKey == "category" ) { addToFilters( filterCategory.category, filterSelect ); }
+			else if ( filterKey == "sized" ) { addToFilters( filterCategory.sized, filterSelect ); }
+			else if ( filterKey == "grooming" ) { addToFilters( filterCategory.grooming, filterSelect ); }
+
 			filterDogs( filterCategory );
+
 	});
+
+
+
+
 
 
 	/************* LOAD DOGS ON INITIAL PAGE LOAD ***************/
@@ -52,78 +55,56 @@ $(document).ready(function() {
  	};
 
 
+
+
+
+
+	//********** ADD OR REMOVE ITEM FROM THE FILTER OBJECT *********//
+	function addToFilters( filterCat, filterSelect ) {
+			var existingFilter = false;
+			var arrayNum = "";
+
+			// See if it exists
+			for ( i = 0; i < filterCat.length; i++ ) {
+					if ( filterCat[i] == filterSelect ) {
+						existingFilter = true;
+						arrayNum = i;
+						i == filterCat.length;
+					}
+			};
+
+			if ( existingFilter ) {
+					filterCat.splice(arrayNum, 1); //delete that one from array
+			} else {
+					filterCat.push( filterSelect ); //add category to array
+			};
+
+	}; 
+
+
+	
+
+
  	/************* FILTER DOGS BASED ON BUTTON CLICK ***************/
  	function filterDogs( filterCategory ){
- 			dogsFiltered = [];
- 			// for each in dogData
- 			for ( i = 0; i < dogData.length; i++ ) {
- 					//compare with all category filters
- 					var filterMatch = false;
- 					for ( x = 0; x < filterCategory.length; x++ ) {
- 							//dog category
- 							if (dogData[i].category == filterCategory[x]) {
- 								filterMatch = true;
- 								x = filterCategory.length;
- 							}
- 							//size of dog
- 							else if (dogData[i].sized == filterCategory[x]) {
- 								filterMatch = true;
- 								x = filterCategory.length;
- 							}
- 							//grooming needs
- 							else if (dogData[i].grooming == filterCategory[x]) {
- 								filterMatch = true;
- 								x = filterCategory.length;
- 								console.log(dogData[i].grooming);
- 							}
- 							//good with children
- 							else if (dogData[i].childOK == filterCategory[x]) {
- 								filterMatch = true;
- 								x = filterCategory.length;
- 							};
- 					};
+ 			  const filteredDogs = dogData.filter(dog => {
+ 			  	console.log(dog.breed);
 
- 					if ( filterMatch === false ) {
- 						dogsFiltered.push( dogData[i] );
- 					};
- 			};
-			
- 			loadDogs( dogsFiltered );
+ 			  	//if filter category isnt empty, or if category from dog doesn't exist within it then this is true
+ 			    const inCategory = !filterCategory.category.length || filterCategory.category.indexOf(dog.category) !== -1;
+ 			    // same here
+ 			    const inSized = !filterCategory.sized.length || filterCategory.sized.indexOf(dog.sized) !== -1;
+ 			    // here check that they are all true with &&
+ 			    if ( inCategory && inSized ) {
+ 			    	// console.log(dog)
+ 			    	console.log(filterCategory.category)
+ 			    	return dog;
+ 			    }
+ 			  });
 
+ 			loadDogs( filteredDogs );
  	};
 
-
-
-
-/////////////////////// GORDONS CODE TO REWRITE //////////////////////////
-
-// function filterData (filters) {
-//   const filteredDogs = dogData.filter(dog => {
-//     // !filters.category.length = true if the array is empty
-//     // if the array is not empty, it continues after the || (which means or)
-//     // which checks that the index of the selected category is not -1 (which
-//     // means it is not in the array)
-//     const inCategory = !filters.category.length || filters.category.indexOf(dog.category) !== -1;
-//     // same here
-//     const inSized = !filters.sized.length || filters.sized.indexOf(dog.sized) !== -1;
-//     // ... repeat for multiple filters
-// ​
-//     // here check that they are all true with &&
-//     if (inCategory && inSized) {
-//       return dog;
-//     }
-//   });
-//   return filteredDogs;
-// }
-// ​
-// // apply two filters
-// filters.category = ['Terrier'];
-// filters.sized = ['Med', 'Sml'];
-// ​
-// // log the results
-// console.log(filterData(filters));
-
-/////////////////////// GORDONS CODE TO REWRITE //////////////////////////
 
 
 
