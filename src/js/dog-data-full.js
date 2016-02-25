@@ -28,7 +28,7 @@ var dogData = [
       lifespan: 12.52,
       purchaseCost: 623,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "3",
       sized: "Med"
    },
@@ -39,7 +39,7 @@ var dogData = [
       lifespan: 14,
       purchaseCost: 833,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -50,7 +50,7 @@ var dogData = [
       lifespan: 12.92,
       purchaseCost: 618,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -61,7 +61,7 @@ var dogData = [
       lifespan: 13.84,
       purchaseCost: 435,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -72,7 +72,7 @@ var dogData = [
       lifespan: 12.49,
       purchaseCost: 750,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -83,7 +83,7 @@ var dogData = [
       lifespan: 11.66,
       purchaseCost: 800,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -94,7 +94,7 @@ var dogData = [
       lifespan: 12.5,
       purchaseCost: 465,
       foodCost: 674,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -105,7 +105,7 @@ var dogData = [
       lifespan: 13,
       purchaseCost: 740,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -116,7 +116,7 @@ var dogData = [
       lifespan: 11.67,
       purchaseCost: 530,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "3",
       sized: "Med"
    },
@@ -127,7 +127,7 @@ var dogData = [
       lifespan: 12.53,
       purchaseCost: 465,
       foodCost: 405,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Sml"
    },
@@ -138,7 +138,7 @@ var dogData = [
       lifespan: 12.58,
       purchaseCost: 650,
       foodCost: 466,
-      grooming: "3",
+      grooming: "Bi-weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -149,7 +149,7 @@ var dogData = [
       lifespan: 13.92,
       purchaseCost: 350,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -160,7 +160,7 @@ var dogData = [
       lifespan: 11.42,
       purchaseCost: 510,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -171,7 +171,7 @@ var dogData = [
       lifespan: 12.63,
       purchaseCost: 423,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "3",
       sized: "Sml"
    },
@@ -182,7 +182,7 @@ var dogData = [
       lifespan: 11.81,
       purchaseCost: 715,
       foodCost: 405,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -193,7 +193,7 @@ var dogData = [
       lifespan: 16.5,
       purchaseCost: 588,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "3",
       sized: "Sml"
    },
@@ -204,7 +204,7 @@ var dogData = [
       lifespan: 11.05,
       purchaseCost: 640,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -215,7 +215,7 @@ var dogData = [
       lifespan: 12.87,
       purchaseCost: 915,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -226,7 +226,7 @@ var dogData = [
       lifespan: 12.54,
       purchaseCost: 615,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -237,7 +237,7 @@ var dogData = [
       lifespan: 12.8,
       purchaseCost: 538,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -248,7 +248,7 @@ var dogData = [
       lifespan: 13.51,
       purchaseCost: 1058,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -259,7 +259,7 @@ var dogData = [
       lifespan: 11.95,
       purchaseCost: 900,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -270,7 +270,7 @@ var dogData = [
       lifespan: 12.21,
       purchaseCost: 693,
       foodCost: 324,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Sml"
    },
@@ -281,7 +281,7 @@ var dogData = [
       lifespan: 11.46,
       purchaseCost: 545,
       foodCost: 971,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -292,7 +292,7 @@ var dogData = [
       lifespan: 12.42,
       purchaseCost: 294,
       foodCost: 710,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -303,7 +303,7 @@ var dogData = [
       lifespan: 14.42,
       purchaseCost: 1050,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -314,7 +314,7 @@ var dogData = [
       lifespan: 12.04,
       purchaseCost: 810,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -325,7 +325,7 @@ var dogData = [
       lifespan: 12.25,
       purchaseCost: 650,
       foodCost: 270,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "3",
       sized: "Sml"
    },
@@ -336,7 +336,7 @@ var dogData = [
       lifespan: 9.67,
       purchaseCost: 670,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -347,7 +347,7 @@ var dogData = [
       lifespan: 13.2,
       purchaseCost: 583,
       foodCost: 324,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Sml"
    },
@@ -358,7 +358,7 @@ var dogData = [
       lifespan: 12.28,
       purchaseCost: 565,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -369,7 +369,7 @@ var dogData = [
       lifespan: 12.6,
       purchaseCost: 566,
       foodCost: 324,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "3",
       sized: "Sml"
    },
@@ -380,7 +380,7 @@ var dogData = [
       lifespan: 11.63,
       purchaseCost: 567,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -391,7 +391,7 @@ var dogData = [
       lifespan: 11.83,
       purchaseCost: 568,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -402,7 +402,7 @@ var dogData = [
       lifespan: 12,
       purchaseCost: 569,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "3",
       sized: "Sml"
    },
@@ -413,7 +413,7 @@ var dogData = [
       lifespan: 12.04,
       purchaseCost: 570,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -424,7 +424,7 @@ var dogData = [
       lifespan: 12.44,
       purchaseCost: 571,
       foodCost: 710,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -435,7 +435,7 @@ var dogData = [
       lifespan: 12.3,
       purchaseCost: 572,
       foodCost: 324,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Sml"
    },
@@ -446,7 +446,7 @@ var dogData = [
       lifespan: 9.48,
       purchaseCost: 573,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -457,7 +457,7 @@ var dogData = [
       lifespan: 12.31,
       purchaseCost: 574,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -468,7 +468,7 @@ var dogData = [
       lifespan: 11.1,
       purchaseCost: 575,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -479,7 +479,7 @@ var dogData = [
       lifespan: 11.57,
       purchaseCost: 576,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -490,7 +490,7 @@ var dogData = [
       lifespan: 11,
       purchaseCost: 469,
       foodCost: 405,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -501,7 +501,7 @@ var dogData = [
       lifespan: 11.17,
       purchaseCost: 650,
       foodCost: 466,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Lrg"
    },
@@ -512,7 +512,7 @@ var dogData = [
       lifespan: 13.07,
       purchaseCost: 2083,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -523,7 +523,7 @@ var dogData = [
       lifespan: 9.02,
       purchaseCost: 600,
       foodCost: 466,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Med"
    },
@@ -534,7 +534,7 @@ var dogData = [
       lifespan: 10.92,
       purchaseCost: 690,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -545,7 +545,7 @@ var dogData = [
       lifespan: 10.33,
       purchaseCost: 790,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Lrg"
    },
@@ -556,7 +556,7 @@ var dogData = [
       lifespan: 10.1,
       purchaseCost: 925,
       foodCost: 405,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -567,7 +567,7 @@ var dogData = [
       lifespan: 10.6,
       purchaseCost: 1070,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -578,7 +578,7 @@ var dogData = [
       lifespan: 11.29,
       purchaseCost: 1017,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -589,7 +589,7 @@ var dogData = [
       lifespan: 11.27,
       purchaseCost: 695,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -600,7 +600,7 @@ var dogData = [
       lifespan: 11.43,
       purchaseCost: 490,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -611,7 +611,7 @@ var dogData = [
       lifespan: 13.58,
       purchaseCost: 940,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -622,7 +622,7 @@ var dogData = [
       lifespan: 10.02,
       purchaseCost: 800,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "3",
       sized: "Sml"
    },
@@ -633,7 +633,7 @@ var dogData = [
       lifespan: 12.05,
       purchaseCost: 1145,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -644,7 +644,7 @@ var dogData = [
       lifespan: 10.34,
       purchaseCost: 1335,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -655,7 +655,7 @@ var dogData = [
       lifespan: 12.25,
       purchaseCost: 587,
       foodCost: 674,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -666,7 +666,7 @@ var dogData = [
       lifespan: 10,
       purchaseCost: 1033,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -677,7 +677,7 @@ var dogData = [
       lifespan: 12.17,
       purchaseCost: 925,
       foodCost: 466,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Sml"
    },
@@ -688,7 +688,7 @@ var dogData = [
       lifespan: 12,
       purchaseCost: 1525,
       foodCost: 710,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Med"
    },
@@ -699,7 +699,7 @@ var dogData = [
       lifespan: 10,
       purchaseCost: 810,
       foodCost: 1349,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "2",
       sized: "Lrg"
    },
@@ -710,7 +710,7 @@ var dogData = [
       lifespan: 9.36,
       purchaseCost: 1175,
       foodCost: 324,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -721,7 +721,7 @@ var dogData = [
       lifespan: 10.69,
       purchaseCost: 829,
       foodCost: 324,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "2",
       sized: "Sml"
    },
@@ -732,7 +732,7 @@ var dogData = [
       lifespan: 9.11,
       purchaseCost: 1118,
       foodCost: 710,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Lrg"
    },
@@ -743,7 +743,7 @@ var dogData = [
       lifespan: 9.4,
       purchaseCost: 1200,
       foodCost: 466,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "2",
       sized: "Med"
    },
@@ -754,7 +754,7 @@ var dogData = [
       lifespan: 11.92,
       purchaseCost: 890,
       foodCost: 710,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Lrg"
    },
@@ -765,7 +765,7 @@ var dogData = [
       lifespan: 9.32,
       purchaseCost: 1178,
       foodCost: 710,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -776,7 +776,7 @@ var dogData = [
       lifespan: 9.73,
       purchaseCost: 820,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Lrg"
    },
@@ -787,7 +787,7 @@ var dogData = [
       lifespan: 11.56,
       purchaseCost: 885,
       foodCost: 466,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "2",
       sized: "Sml"
    },
@@ -798,7 +798,7 @@ var dogData = [
       lifespan: 11.19,
       purchaseCost: 832,
       foodCost: 710,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Med"
    },
@@ -809,7 +809,7 @@ var dogData = [
       lifespan: 10.16,
       purchaseCost: 1202,
       foodCost: 710,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "3",
       sized: "Lrg"
    },
@@ -820,7 +820,7 @@ var dogData = [
       lifespan: 9.1,
       purchaseCost: 995,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Lrg"
    },
@@ -831,7 +831,7 @@ var dogData = [
       lifespan: 9,
       purchaseCost: 1900,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -842,7 +842,7 @@ var dogData = [
       lifespan: 9.08,
       purchaseCost: 675,
       foodCost: 466,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "2",
       sized: "Lrg"
    },
@@ -853,7 +853,7 @@ var dogData = [
       lifespan: 7.56,
       purchaseCost: 1320,
       foodCost: 710,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -864,7 +864,7 @@ var dogData = [
       lifespan: 10.21,
       purchaseCost: 1085,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -875,7 +875,7 @@ var dogData = [
       lifespan: 8.81,
       purchaseCost: 700,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -886,7 +886,7 @@ var dogData = [
       lifespan: 10.67,
       purchaseCost: 1210,
       foodCost: 710,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "2",
       sized: "Lrg"
    },
@@ -897,7 +897,7 @@ var dogData = [
       lifespan: 9.01,
       purchaseCost: 515,
       foodCost: 466,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "2",
       sized: "Med"
    },
@@ -908,7 +908,7 @@ var dogData = [
       lifespan: 6.75,
       purchaseCost: 608,
       foodCost: 710,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Lrg"
    },
@@ -919,7 +919,7 @@ var dogData = [
       lifespan: 6.94,
       purchaseCost: 1333,
       foodCost: 1217,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -930,7 +930,7 @@ var dogData = [
       lifespan: 7.57,
       purchaseCost: 980,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -941,7 +941,7 @@ var dogData = [
       lifespan: 6.5,
       purchaseCost: 900,
       foodCost: 701,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -952,7 +952,7 @@ var dogData = [
       lifespan: 6.96,
       purchaseCost: 1040,
       foodCost: 710,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -963,7 +963,7 @@ var dogData = [
       lifespan: 7.78,
       purchaseCost: 875,
       foodCost: 1217,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Lrg"
    },
@@ -974,7 +974,7 @@ var dogData = [
       lifespan: 6.29,
       purchaseCost: 2680,
       foodCost: 466,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -1051,7 +1051,7 @@ var dogData = [
       lifespan: 10.75,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Lrg"
    },
@@ -1062,7 +1062,7 @@ var dogData = [
       lifespan: 12.77,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Med"
    },
@@ -1084,7 +1084,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 1080,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -1150,7 +1150,7 @@ var dogData = [
       lifespan: 14.67,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -1183,7 +1183,7 @@ var dogData = [
       lifespan: 8.42,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -1227,7 +1227,7 @@ var dogData = [
       lifespan: 10.75,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Lrg"
    },
@@ -1260,7 +1260,7 @@ var dogData = [
       lifespan: 9.9,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "2",
       sized: "Med"
    },
@@ -1271,7 +1271,7 @@ var dogData = [
       lifespan: 7.33,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "1",
+      grooming: "Daily",
       childOK: "1",
       sized: "Med"
    },
@@ -1282,7 +1282,7 @@ var dogData = [
       lifespan: 11.17,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -1370,7 +1370,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 1500,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -1403,7 +1403,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 588,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -1414,7 +1414,7 @@ var dogData = [
       lifespan: 9.33,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -1469,7 +1469,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 1093,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -1480,7 +1480,7 @@ var dogData = [
       lifespan: 6.98,
       purchaseCost: 1480,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -1535,7 +1535,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 1760,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -1579,7 +1579,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 1245,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -1590,7 +1590,7 @@ var dogData = [
       lifespan: 6.5,
       purchaseCost: 1500,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Med"
    },
@@ -1601,7 +1601,7 @@ var dogData = [
       lifespan: 10.8,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -1612,7 +1612,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 528,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Sml"
    },
@@ -1645,7 +1645,7 @@ var dogData = [
       lifespan: 10.8,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "2",
       sized: "Med"
    },
@@ -1810,7 +1810,7 @@ var dogData = [
       lifespan: 11.17,
       purchaseCost: -1,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "3",
       sized: "Sml"
    },
@@ -1821,7 +1821,7 @@ var dogData = [
       lifespan: 14.17,
       purchaseCost: 772,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },
@@ -1832,7 +1832,7 @@ var dogData = [
       lifespan: 11.92,
       purchaseCost: 3460,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -1865,7 +1865,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 562,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Lrg"
    },
@@ -1876,7 +1876,7 @@ var dogData = [
       lifespan: -1,
       purchaseCost: 843,
       foodCost: -1,
-      grooming: "2",
+      grooming: "Weekly",
       childOK: "1",
       sized: "Sml"
    },

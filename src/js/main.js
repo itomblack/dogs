@@ -92,11 +92,10 @@ $(document).ready(function() {
 
  			  	//if filter category isnt empty, or if category from dog doesn't exist within it then this is true
  			    const inCategory = !filterCategory.category.length || filterCategory.category.indexOf(dog.category) !== -1;
- 			    // same here
  			    const inSized = !filterCategory.sized.length || filterCategory.sized.indexOf(dog.sized) !== -1;
+ 			    const inGrooming = !filterCategory.grooming.length || filterCategory.grooming.indexOf(dog.grooming) !== -1;
  			    // here check that they are all true with &&
- 			    if ( inCategory && inSized ) {
- 			    	// console.log(dog)
+ 			    if ( inCategory && inSized && inGrooming ) {
  			    	console.log(filterCategory.category)
  			    	return dog;
  			    }
