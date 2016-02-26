@@ -6,11 +6,12 @@ $(document).ready(function() {
 	  category: [],
 	  sized: [],
 	  grooming: [],
+	  childOK: []
 	}
 
-	//sort data by dogname
-	// dogData.sort();
-	loadDogs(dogData);
+	
+	//sort data by name first and then load into DOM
+	dataSortName( dogData ); 
 
 	
 
@@ -31,6 +32,7 @@ $(document).ready(function() {
 			if ( filterKey == "category" ) { addToFilters( filterCategory.category, filterSelect ); }
 			else if ( filterKey == "sized" ) { addToFilters( filterCategory.sized, filterSelect ); }
 			else if ( filterKey == "grooming" ) { addToFilters( filterCategory.grooming, filterSelect ); }
+			else if ( filterKey == "childOK" ) { addToFilters( filterCategory.childOK, filterSelect ); }
 
 			filterDogs( filterCategory );
 
@@ -88,24 +90,38 @@ $(document).ready(function() {
  	/************* FILTER DOGS BASED ON BUTTON CLICK ***************/
  	function filterDogs( filterCategory ){
  			  const filteredDogs = dogData.filter(dog => {
- 			  	console.log(dog.breed);
-
  			  	//if filter category isnt empty, or if category from dog doesn't exist within it then this is true
  			    const inCategory = !filterCategory.category.length || filterCategory.category.indexOf(dog.category) !== -1;
  			    const inSized = !filterCategory.sized.length || filterCategory.sized.indexOf(dog.sized) !== -1;
  			    const inGrooming = !filterCategory.grooming.length || filterCategory.grooming.indexOf(dog.grooming) !== -1;
+ 			    const inChildOK = !filterCategory.childOK.length || filterCategory.childOK.indexOf(dog.childOK) !== -1;
+ 			    
  			    // here check that they are all true with &&
- 			    if ( inCategory && inSized && inGrooming ) {
- 			    	console.log(filterCategory.category)
+ 			    if ( inCategory && inSized && inGrooming && inChildOK ) {
  			    	return dog;
  			    }
  			  });
 
- 			loadDogs( filteredDogs );
+ 			//reload DOM info
+ 			dataSortName( filteredDogs );
  	};
 
 
 
+
+ 	/************* SORT ALPHABETICALLY BY NAME & LOAD ***************/
+ 	function dataSortName( dogData ) {
+ 		var byName = dogData.slice(0);
+ 		
+ 		byName.sort(function(a,b) {
+ 			var x = a.breed.toLowerCase();
+ 			var y = b.breed.toLowerCase();
+ 			return x < y ? -1 : x > y ? 1 : 0;
+ 		});
+
+ 		//load data into DOM
+		loadDogs(byName);
+ 	};
 
 
 

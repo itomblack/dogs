@@ -29,7 +29,7 @@ var dogData = [
       purchaseCost: 623,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Med"
    },
    {
@@ -40,7 +40,7 @@ var dogData = [
       purchaseCost: 833,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -51,7 +51,7 @@ var dogData = [
       purchaseCost: 618,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -62,7 +62,7 @@ var dogData = [
       purchaseCost: 435,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -73,7 +73,7 @@ var dogData = [
       purchaseCost: 750,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -84,7 +84,7 @@ var dogData = [
       purchaseCost: 800,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -95,7 +95,7 @@ var dogData = [
       purchaseCost: 465,
       foodCost: 674,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -106,7 +106,7 @@ var dogData = [
       purchaseCost: 740,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -117,7 +117,7 @@ var dogData = [
       purchaseCost: 530,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Med"
    },
    {
@@ -128,7 +128,7 @@ var dogData = [
       purchaseCost: 465,
       foodCost: 405,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -139,7 +139,7 @@ var dogData = [
       purchaseCost: 650,
       foodCost: 466,
       grooming: "Bi-weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -150,7 +150,7 @@ var dogData = [
       purchaseCost: 350,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -161,7 +161,7 @@ var dogData = [
       purchaseCost: 510,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -172,7 +172,7 @@ var dogData = [
       purchaseCost: 423,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Sml"
    },
    {
@@ -183,7 +183,7 @@ var dogData = [
       purchaseCost: 715,
       foodCost: 405,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -194,7 +194,7 @@ var dogData = [
       purchaseCost: 588,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Sml"
    },
    {
@@ -205,7 +205,7 @@ var dogData = [
       purchaseCost: 640,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -216,7 +216,7 @@ var dogData = [
       purchaseCost: 915,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -227,7 +227,7 @@ var dogData = [
       purchaseCost: 615,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -238,7 +238,7 @@ var dogData = [
       purchaseCost: 538,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -249,7 +249,7 @@ var dogData = [
       purchaseCost: 1058,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -260,7 +260,7 @@ var dogData = [
       purchaseCost: 900,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -271,7 +271,7 @@ var dogData = [
       purchaseCost: 693,
       foodCost: 324,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -282,7 +282,7 @@ var dogData = [
       purchaseCost: 545,
       foodCost: 971,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -293,7 +293,7 @@ var dogData = [
       purchaseCost: 294,
       foodCost: 710,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -304,7 +304,7 @@ var dogData = [
       purchaseCost: 1050,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -315,7 +315,7 @@ var dogData = [
       purchaseCost: 810,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -326,7 +326,7 @@ var dogData = [
       purchaseCost: 650,
       foodCost: 270,
       grooming: "Daily",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Sml"
    },
    {
@@ -337,7 +337,7 @@ var dogData = [
       purchaseCost: 670,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -348,7 +348,7 @@ var dogData = [
       purchaseCost: 583,
       foodCost: 324,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -359,7 +359,7 @@ var dogData = [
       purchaseCost: 565,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -370,7 +370,7 @@ var dogData = [
       purchaseCost: 566,
       foodCost: 324,
       grooming: "Daily",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Sml"
    },
    {
@@ -381,7 +381,7 @@ var dogData = [
       purchaseCost: 567,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -392,7 +392,7 @@ var dogData = [
       purchaseCost: 568,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -403,7 +403,7 @@ var dogData = [
       purchaseCost: 569,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Sml"
    },
    {
@@ -414,7 +414,7 @@ var dogData = [
       purchaseCost: 570,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -425,7 +425,7 @@ var dogData = [
       purchaseCost: 571,
       foodCost: 710,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -436,7 +436,7 @@ var dogData = [
       purchaseCost: 572,
       foodCost: 324,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -447,7 +447,7 @@ var dogData = [
       purchaseCost: 573,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -458,7 +458,7 @@ var dogData = [
       purchaseCost: 574,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -469,7 +469,7 @@ var dogData = [
       purchaseCost: 575,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -480,7 +480,7 @@ var dogData = [
       purchaseCost: 576,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -491,7 +491,7 @@ var dogData = [
       purchaseCost: 469,
       foodCost: 405,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -502,7 +502,7 @@ var dogData = [
       purchaseCost: 650,
       foodCost: 466,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -513,7 +513,7 @@ var dogData = [
       purchaseCost: 2083,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -524,7 +524,7 @@ var dogData = [
       purchaseCost: 600,
       foodCost: 466,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -535,7 +535,7 @@ var dogData = [
       purchaseCost: 690,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -546,7 +546,7 @@ var dogData = [
       purchaseCost: 790,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -557,7 +557,7 @@ var dogData = [
       purchaseCost: 925,
       foodCost: 405,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -568,7 +568,7 @@ var dogData = [
       purchaseCost: 1070,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -579,7 +579,7 @@ var dogData = [
       purchaseCost: 1017,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -590,7 +590,7 @@ var dogData = [
       purchaseCost: 695,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -601,7 +601,7 @@ var dogData = [
       purchaseCost: 490,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -612,7 +612,7 @@ var dogData = [
       purchaseCost: 940,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -623,7 +623,7 @@ var dogData = [
       purchaseCost: 800,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Sml"
    },
    {
@@ -634,7 +634,7 @@ var dogData = [
       purchaseCost: 1145,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -645,7 +645,7 @@ var dogData = [
       purchaseCost: 1335,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -656,7 +656,7 @@ var dogData = [
       purchaseCost: 587,
       foodCost: 674,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -667,7 +667,7 @@ var dogData = [
       purchaseCost: 1033,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -678,7 +678,7 @@ var dogData = [
       purchaseCost: 925,
       foodCost: 466,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -689,7 +689,7 @@ var dogData = [
       purchaseCost: 1525,
       foodCost: 710,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -700,7 +700,7 @@ var dogData = [
       purchaseCost: 810,
       foodCost: 1349,
       grooming: "Daily",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -711,7 +711,7 @@ var dogData = [
       purchaseCost: 1175,
       foodCost: 324,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -722,7 +722,7 @@ var dogData = [
       purchaseCost: 829,
       foodCost: 324,
       grooming: "Daily",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -733,7 +733,7 @@ var dogData = [
       purchaseCost: 1118,
       foodCost: 710,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -744,7 +744,7 @@ var dogData = [
       purchaseCost: 1200,
       foodCost: 466,
       grooming: "Daily",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -755,7 +755,7 @@ var dogData = [
       purchaseCost: 890,
       foodCost: 710,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -766,7 +766,7 @@ var dogData = [
       purchaseCost: 1178,
       foodCost: 710,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -777,7 +777,7 @@ var dogData = [
       purchaseCost: 820,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -788,7 +788,7 @@ var dogData = [
       purchaseCost: 885,
       foodCost: 466,
       grooming: "Daily",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -799,7 +799,7 @@ var dogData = [
       purchaseCost: 832,
       foodCost: 710,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -810,7 +810,7 @@ var dogData = [
       purchaseCost: 1202,
       foodCost: 710,
       grooming: "Weekly",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Lrg"
    },
    {
@@ -821,7 +821,7 @@ var dogData = [
       purchaseCost: 995,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -832,7 +832,7 @@ var dogData = [
       purchaseCost: 1900,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -843,7 +843,7 @@ var dogData = [
       purchaseCost: 675,
       foodCost: 466,
       grooming: "Daily",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -854,7 +854,7 @@ var dogData = [
       purchaseCost: 1320,
       foodCost: 710,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -865,7 +865,7 @@ var dogData = [
       purchaseCost: 1085,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -876,7 +876,7 @@ var dogData = [
       purchaseCost: 700,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -887,7 +887,7 @@ var dogData = [
       purchaseCost: 1210,
       foodCost: 710,
       grooming: "Daily",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -898,7 +898,7 @@ var dogData = [
       purchaseCost: 515,
       foodCost: 466,
       grooming: "Daily",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -909,7 +909,7 @@ var dogData = [
       purchaseCost: 608,
       foodCost: 710,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -920,7 +920,7 @@ var dogData = [
       purchaseCost: 1333,
       foodCost: 1217,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -931,7 +931,7 @@ var dogData = [
       purchaseCost: 980,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -942,7 +942,7 @@ var dogData = [
       purchaseCost: 900,
       foodCost: 701,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -953,7 +953,7 @@ var dogData = [
       purchaseCost: 1040,
       foodCost: 710,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -964,7 +964,7 @@ var dogData = [
       purchaseCost: 875,
       foodCost: 1217,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -975,7 +975,7 @@ var dogData = [
       purchaseCost: 2680,
       foodCost: 466,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -1052,7 +1052,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -1063,7 +1063,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -1085,7 +1085,7 @@ var dogData = [
       purchaseCost: 1080,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -1151,7 +1151,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -1184,7 +1184,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -1228,7 +1228,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Lrg"
    },
    {
@@ -1261,7 +1261,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Daily",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -1272,7 +1272,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Daily",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -1283,7 +1283,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -1371,7 +1371,7 @@ var dogData = [
       purchaseCost: 1500,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -1404,7 +1404,7 @@ var dogData = [
       purchaseCost: 588,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -1415,7 +1415,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -1470,7 +1470,7 @@ var dogData = [
       purchaseCost: 1093,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -1481,7 +1481,7 @@ var dogData = [
       purchaseCost: 1480,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -1536,7 +1536,7 @@ var dogData = [
       purchaseCost: 1760,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -1580,7 +1580,7 @@ var dogData = [
       purchaseCost: 1245,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -1591,7 +1591,7 @@ var dogData = [
       purchaseCost: 1500,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Med"
    },
    {
@@ -1602,7 +1602,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -1613,7 +1613,7 @@ var dogData = [
       purchaseCost: 528,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Sml"
    },
    {
@@ -1646,7 +1646,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "2",
+      childOK: "OK",
       sized: "Med"
    },
    {
@@ -1811,7 +1811,7 @@ var dogData = [
       purchaseCost: -1,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "3",
+      childOK: "Poor",
       sized: "Sml"
    },
    {
@@ -1822,7 +1822,7 @@ var dogData = [
       purchaseCost: 772,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
@@ -1833,7 +1833,7 @@ var dogData = [
       purchaseCost: 3460,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -1866,7 +1866,7 @@ var dogData = [
       purchaseCost: 562,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Lrg"
    },
    {
@@ -1877,7 +1877,7 @@ var dogData = [
       purchaseCost: 843,
       foodCost: -1,
       grooming: "Weekly",
-      childOK: "1",
+      childOK: "Good",
       sized: "Sml"
    },
    {
