@@ -36,6 +36,8 @@ $(document).ready(function() {
 
 			filterDogs( filterCategory );
 
+			//NEED A NEW ARRAY OF "DOGS WITH INCOMPLETE DATA"
+
 	});
 
 
