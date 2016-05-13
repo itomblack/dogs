@@ -92,13 +92,13 @@ $(document).ready(function() {
  	/************* FILTER DOGS BASED ON BUTTON CLICK ***************/
  	function filterDogs( filterCategory ){
  			  const filteredDogs = dogData.filter(dog => {
- 			  	//if filter category isnt empty, or if category from dog doesn't exist within it then this is true
+ 			  	//if filter category is empty, or if category from dog doesn't exist within it then this is true
  			    const inCategory = !filterCategory.category.length || filterCategory.category.indexOf(dog.category) !== -1;
  			    const inSized = !filterCategory.sized.length || filterCategory.sized.indexOf(dog.sized) !== -1;
  			    const inGrooming = !filterCategory.grooming.length || filterCategory.grooming.indexOf(dog.grooming) !== -1;
  			    const inChildOK = !filterCategory.childOK.length || filterCategory.childOK.indexOf(dog.childOK) !== -1;
  			    
- 			    // here check that they are all true with &&
+ 			    // here check that they are all true with && (If all filters were empty, or not found in that dog)
  			    if ( inCategory && inSized && inGrooming && inChildOK ) {
  			    	return dog;
  			    }
